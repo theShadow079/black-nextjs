@@ -8,11 +8,11 @@ const Header = () => {
         <a className="navbar-brand">Início</a>
       </Link>
       <Nav className="flex-row" navbar>
-        <Link href="/products">
-          <a className="nav-link me-2">Produtos</a>
+        <Link href="/products" className="nav-link me-2">
+          Produtos
         </Link>
-        <Link href="/cart">
-          <a className="nav-link">Carrinho</a>
+        <Link href="/cart" className="nav-link">
+          Carrinho
         </Link>
       </Nav>
     </Navbar>
